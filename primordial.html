@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>O Primordial</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="C:\Users\sala303b\Documents\Projeto do Site\css\estilo.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+	<script src="jquery-3.2.1.min.js"></script>
+               <script>
+                      $(function(){ 
+                                $("#header").load("header.html");
+                                $("#footer").load("footer.html"); 
+                       });
+                 </script>
+
+                 <header>
+	<div id="cabecalho">
+		<div id="area">
+			<h1 id="logo">Primordial</h1>
+			<div id="selecoes">
+				<a href="index.html">Home<a/>
+				<a href="primordial.html">O Primordial<a/>
+				<a href="cardapio.html">Cardápio<a/>
+				<a href="cliente.html">Área do Cliente<a/>
+				<a href="contato.html">Contato<a/>
+
+			</div>
+		</div>
+	</div>
+
+</a></a></a></a></a></div></div></div></header>
+
+	<body>		
+
+		<section class="galeria">
+			<img class="foto" src="https://www.gazetadopovo.com.br/haus/wp-content/uploads/2017/10/MADERO-STEAK-HOUSE-Shopping-Palladium-Curitiba-09-10-17-Foto-Gerson-Lima-13.jpg" style="width: 100%; height: 100%;"/>
+			<img class="foto" src="https://www.gazetadopovo.com.br/haus/wp-content/uploads/2017/10/MADERO-STEAK-HOUSE-Shopping-Palladium-Curitiba-09-10-17-Foto-Gerson-Lima-26.jpg" style="width: 100%; height: 100%;"/>
+			<img class="foto" src="https://s2.glbimg.com/l-pNsIHF8ykGy3mF1uCtUB9YCow=/i.glbimg.com/og/ig/infoglobo1/f/original/2018/08/06/mush_bullguer_lucas_terribili-1.jpg" style="width: 100%; height: 100%;"/>
+			<img class="foto" src="https://marilices.files.wordpress.com/2015/04/0081-gui_0596.jpg" style="width: 100%; height: 100%;"/>
+			
+		</section>
+
+<style>
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#texto{
+	position: absolute;
+	margin-top: -30px;
+}
+.galeria{
+	margin: 83px auto;
+	width: 100%;
+	height: 100%;
+	position: top;
+	overflow: hidden; 
+}
+
+
+.foto{
+	position: absolute;
+	opacity: 0;
+	animation-name:animacao;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes animacao{
+	25%{
+		opacity: 1;
+		transform:scale(1.1,1.1);
+	}
+
+	50%{
+		opacity:0;
+	}
+}
+
+.foto:nth-child(1){
+
+}
+.foto:nth-child(2){
+	animation-delay: 5s;
+	
+}
+.foto:nth-child(3){
+	animation-delay: 10s;
+	
+}
+.foto:nth-child(4){
+	animation-delay: 15s;
+	
+}
+
+</style>
+
+
+</head>
+	
+</body>
+</html>
+
