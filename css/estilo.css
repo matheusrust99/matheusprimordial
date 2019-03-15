@@ -1,0 +1,291 @@
+*{
+
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	font-size: 20px;
+	font-family: Baskerville Old;
+	background:black;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0px;
+	color: white;
+
+
+
+}
+
+
+#cabecalho{
+	border-bottom: 1px solid #black;
+	background: #661D28;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	font-size: 20px;
+
+
+
+
+}
+
+#area{
+	width: 1200px;
+	margin: 0 auto;
+
+
+}
+
+#logo{
+	float: left;
+	color: white;
+	padding: 0px 0;
+}
+
+#selecoes{
+	float: right;
+	padding: 7px 0;
+	font-size: 25px;
+	color: white;
+	word-spacing: 10px;
+	text-underline-position: none;
+
+
+
+}
+
+a:visited{
+	color: white;
+}
+
+}
+a:link{
+	color:blue;
+	text-decoration: none;
+}
+
+div selecoes a:hover{
+	color: white;
+}
+
+style{
+	background-color: white;
+}
+
+.burgao5{
+	float: right;
+}
+span1{
+	color: white;
+
+}
+
+footer{
+	background:#661D28;
+	font-size: 18px;
+	color: white;
+	padding: 15px;
+	text-align: center;
+}
+
+
+}
+
+h1{
+	color: white;
+	text-align: center;
+
+}
+h2{
+	color:blue;
+	text-align: center;
+}
+
+body{
+
+	background-image: url(https://images.wallpaperscraft.com/image/wood_room_texture_55218_1920x1080.jpg);
+	float:left;
+}
+
+#logo{
+	font-size: 37px;
+
+}
+
+
+
+.btn{
+	font-family:Baskerville Old;
+	font-size:24px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 6px;
+
+
+
+	
+
+}
+
+.btn-green{
+	background: orange;
+	color:#fff;
+	box-shadow: 0 5px 0 orange;
+	
+}
+
+h3{
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+h6{
+	color:white;
+}
+
+table.table td{
+	color: white;
+	text-align: center;
+	align-content: center;
+
+
+}
+
+table.sobremesa td{
+	color: white;
+	text-align: center;
+	margin: auto;
+	float: auto;
+	position: center;
+
+}
+
+#postagem1{
+	color: white;
+}
+
+#postagem3{
+	color:white;
+}
+
+#bebidaprimordial{
+	color: white;
+
+}
+
+#hamburguerprimordial{
+	color:white;
+	position: center;
+}
+
+#sobremesaprimordial{
+	align-content: center;
+	text-align: center;
+	position: center;
+	color: blue;
+}
+
+.divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #blue;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook {
+    background-color: #405D9D;
+    color: #fff;
+}
+.btn-twitter {
+    background-color: #42AEEC;
+    color: #fff;
+}
+
+.text-center{
+	color: black;
+}
+
+
+@media only screen and (max-device-width: 900px){
+	.menu{ width: 600px; }
+}
+
+nav a{
+color: black;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.img-class
+{
+ float: left; 
+ margin-right: 15px;
+}
+
+.collapse
+{
+    width: 700px;
+}
+
+li
+{
+     float: left;
+     margin: 10px; 
+}
+
+nav.navbar.navbar-default {
+background: transparent;
+border: none;
+width: 80%;
+margin: 0 auto;
+}
+
+}
+
+ul.nav.navbar-nav.cl-effect-1 {
+margin-right: auto;
+margin-left: auto;
+float: none;
+display: table;
+text-align: center;
+margin-top: 110px;
+/* width: 80%; */
+}
+
+ul.nav.navbar-nav.cl-effect-1 li a {
+font-size: 13px;
+font-weight: bold;
+font-family:Baskerville Old;
+}
+
+nav a:hover{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
